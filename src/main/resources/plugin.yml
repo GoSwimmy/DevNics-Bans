@@ -1,0 +1,8 @@
+name: DevNicsBans
+version: ${project.version}
+main: com.goswimmy.devnicsbans.DevNicsBans
+api-version: 1.17
+authors: [ Sage ]
+commands:
+  ban:
+  checkban:

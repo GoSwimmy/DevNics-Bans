@@ -1,0 +1,19 @@
+#Can either be SQLite or MySQL
+storage-type: "sqlite"
+
+mysql:
+  host: localhost
+  port: 3306
+  database: database
+  username: username
+  password: password
+  ssl: false
+  autoreconnect: true
+
+reasons:
+  1:
+    name: "Reason 1"
+    time: "1h"
+  2:
+    name: "Reason 2"
+    time: "perm" #permanently
